@@ -1,0 +1,2 @@
+name = "София"
+print(name)
