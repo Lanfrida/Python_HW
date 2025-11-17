@@ -12,6 +12,6 @@ button_push = driver.find_element(By.CSS_SELECTOR, btn)
 
 #button_push.send_keys(Keys.RETURN) - одна из версий выполнения скрипта.
 
-button_push.click() #второй вариант выполнения скрипта.
+button_push.click() #второй вариант выполнения скрипта
 
 sleep(5)
