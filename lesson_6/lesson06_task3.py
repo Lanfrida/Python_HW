@@ -12,6 +12,5 @@ third_image = wait.until(EC.presence_of_element_located((By.ID, "award")))
 src_attribute = third_image.get_attribute("src")
 print(f"{src_attribute}")
 
+
 driver.quit()
-
-

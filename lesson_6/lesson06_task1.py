@@ -12,4 +12,5 @@ driver.find_element(By.CSS_SELECTOR, "#ajaxButton").click()
 element = waiter.until(EC.visibility_of_element_located((By.CLASS_NAME, 'bg-success')))
 print(element.text)
 
+
 driver.quit()

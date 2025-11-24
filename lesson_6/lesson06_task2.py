@@ -19,3 +19,5 @@ push_button = driver.find_element(By.CSS_SELECTOR, upd).click()
 
 button = driver.find_element(By.CSS_SELECTOR, "#updatingButton")
 print(button.text)
+
+driver.quit()
