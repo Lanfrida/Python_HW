@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
+
 def test_calculator() -> None:
     driver = webdriver.Chrome()
     driver.maximize_window()
